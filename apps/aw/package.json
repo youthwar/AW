@@ -1,0 +1,42 @@
+{
+  "name": "AW",
+  "version": "1.0.0",
+  "description": "Afterword",
+  "main": "index.js",
+  "author": "Maximiliano Ayala",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "3.1.5",
+    "@apollo/react-ssr": "3.1.5",
+    "add": "^2.0.6",
+    "apollo-boost": "0.4.7",
+    "express": "^4.17.1",
+    "graphql": "15.0.0",
+    "markdown-it": "^12.0.2",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-deflist": "^2.1.0",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-ins": "^3.0.0",
+    "markdown-it-mark": "^3.0.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "next": "9.4.0",
+    "next-apollo": "3.1.10",
+    "react": "16.13.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-burger-menu": "^2.9.2",
+    "react-dom": "16.13.1",
+    "react-icons": "^4.1.0",
+    "react-star-ratings": "^2.3.0",
+    "reactstrap": "^8.7.1",
+    "styled-components": "^5.2.1"
+  }
+}

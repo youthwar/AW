@@ -1,0 +1,14 @@
+version: "2.4"
+   
+services:
+  db:
+    image: postgres
+    volumes:
+      - ./database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=aw_admin
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+    ports:
+      - 5432:5432
+      
